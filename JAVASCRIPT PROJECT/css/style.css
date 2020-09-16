@@ -1,0 +1,65 @@
+.main{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+    background: black;
+    color: white;
+}
+body{
+    margin: 0;
+}
+.container{
+    width: 1140px;
+    margin: auto;
+    text-align:center;
+}
+.container h1{
+    font-family: monospace;
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 9rem;
+    text-shadow: 2px 3px 0px rgb(67, 185, 24);
+   
+}
+.selctedColor{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: white;
+}
+.showP{
+    bottom:0px !important;
+}
+.MyUl{
+    position: relative;
+    overflow: hidden;
+    margin-right: 15px;
+    bottom: -100px;
+    transition: .7s;
+}
+.MyUl li{
+    display: inline-block;
+    list-style: none;
+}
+.MyUl li button{
+    padding: 3px;
+    border: 1px solid transparent;
+    color: white;
+    cursor: pointer;
+
+}
+.btn-style{
+    position: absolute;
+    right: 10px;
+    top:10px;
+    padding: 5px;
+    border: 1px solid white;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+.btn-style:hover{
+    background: white;
+    color: black;
+}
